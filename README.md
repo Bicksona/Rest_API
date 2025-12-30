@@ -92,26 +92,6 @@ Server runs at 👉 `http://localhost:8080`
     "productPrice": ProductPrice,
     "productQuantity": ProductQuantity
   }
-```
-
----
-
-## 🔍 Sample CURL Commands
-
-### ➕ Add Product
-```bash
-curl -X POST -H "Content-Type: application/json" -d '{"productName":"Laptop Stand","productDescription":"Aluminum stand","productPrice":999.0,"productQuantity":15}' http://localhost:8080/product
-```
-
-### 📌 Update Product (example: ID = 1)
-```bash
-curl -X PUT -H "Content-Type: application/json" -d '{"productName":"Gaming Mouse","productDescription":"RGB Mouse","productPrice":1299,"productQuantity":12}' http://localhost:8080/product/1
-```
-
-### ❌ Delete Product (example: ID = 1)
-```bash
-curl -X DELETE http://localhost:8080/product/1
-```
 
 ---
 
