@@ -85,13 +85,13 @@ Server runs at 👉 `http://localhost:8080`
 ## 🧠 Example JSON Request
 
 ```json
- {
-    "productId": id,
-    "productName": "ProductName",
-    "productDescription": "ProductDescription",
-    "productPrice": ProductPrice,
-    "productQuantity": ProductQuantity
-  }
+{
+  "productName": "Wireless Mouse",
+  "productDescription": "Ergonomic wireless mouse",
+  "productPrice": 799.99,
+  "productQuantity": 25
+}
+```
 
 ---
 
