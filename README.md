@@ -48,7 +48,7 @@ src/main/java/com/example/product
 
 ### 1️⃣ Clone the project
 ```bash
-git clone https://github.com/yourusername/product-api.git
+git clone https://github.com/bicksona/product-api.git
 cd product-api
 ```
 
